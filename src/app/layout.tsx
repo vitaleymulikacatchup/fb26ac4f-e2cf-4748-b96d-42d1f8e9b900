@@ -74,26 +74,26 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Pizzeria | Authentic Italian Pizza",
-  description: "Discover authentic Italian pizza made with fresh ingredients. Visit us today!",
+  title: "Pizzeria Delight | Authentic Italian Cuisine",
+  description: "Discover the best pizza in town at Pizzeria Delight. Join us for a slice of Italy!",
   openGraph: {
-    title: "Pizzeria | Authentic Italian Pizza",
-    description: "Discover authentic Italian pizza made with fresh ingredients. Visit us today!",
-    url: "https://example.com", // Placeholder URL
-    siteName: "Pizzeria",
-    images: [{ url: "https://images.pexels.com/photos/2909822/pexels-photo-2909822.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" }],
-    type: "website",
+    title: "Pizzeria Delight | Authentic Italian Cuisine",
+    description: "Discover the best pizza in town at Pizzeria Delight. Join us for a slice of Italy!",
+    url: "http://www.pizzeriadelight.com",
+    siteName: "Pizzeria Delight",
+    images: [{
+      url: "https://images.pexels.com/photos/6188305/pexels-photo-6188305.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      alt: "Pizzeria Delight"
+    }],
+    type: "website"
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pizzeria | Authentic Italian Pizza",
-    description: "Discover authentic Italian pizza made with fresh ingredients. Visit us today!",
-    images: ["https://images.pexels.com/photos/2909822/pexels-photo-2909822.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"],
+    title: "Pizzeria Delight | Authentic Italian Cuisine",
+    description: "Discover the best pizza in town at Pizzeria Delight. Join us for a slice of Italy!",
+    images: ["https://images.pexels.com/photos/6188305/pexels-photo-6188305.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"]
   },
-  robots: {
-    index: true,
-    follow: true,
-  },
+  robots: { index: true, follow: true }
 };
 
 export default function RootLayout({
